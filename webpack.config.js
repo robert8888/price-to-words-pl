@@ -11,6 +11,7 @@ module.exports = {
         libraryTarget: 'umd',
         libraryExport: 'default',
         globalObject: 'this',
+        module: true,
     },
     module: {
         rules: [
