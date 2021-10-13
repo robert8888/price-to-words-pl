@@ -1,6 +1,6 @@
 {
   "name": "price-to-words-pl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converting a price value into a word representation with a currency.",
   "main": "dist/index.js",
   "repository": "https://github.com/robert8888/price-to-words-pl",
@@ -33,6 +33,7 @@
     "babel-jest": "^27.2.5",
     "babel-loader": "^8.2.2",
     "jest": "^27.2.5",
+    "terser-webpack-plugin": "^5.2.4",
     "webpack": "^5.58.1",
     "webpack-cli": "^4.9.0"
   },

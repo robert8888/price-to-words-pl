@@ -1,17 +1,15 @@
 const path = require('path')
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
     entry: './src/index.js',
 
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '',
         filename: 'index.js',
-        library: 'PriceToWordsPl',
+        library: 'price-to-words-pl',
         libraryTarget: 'umd',
-        libraryExport: 'default',
         globalObject: 'this',
-        module: true,
     },
     module: {
         rules: [
@@ -27,5 +25,6 @@ module.exports = {
             }
         ],
     },
+
     mode: 'production'
 };
