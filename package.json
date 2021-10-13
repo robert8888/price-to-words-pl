@@ -1,14 +1,13 @@
 {
   "name": "price-to-words-pl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converting a price value into a word representation with a currency.",
   "main": "dist/index.js",
-  "repository": "",
-  "homepage": " ",
+  "repository": "https://github.com/robert8888/price-to-words-pl",
+  "homepage": "https://github.com/robert8888/price-to-words-pl",
   "files": [
     "/dist/index.js"
   ],
-  "type": "module",
   "scripts": {
     "start": "node /dist/index.js",
     "build": "npx webpack --config ./webpack.config.js",
