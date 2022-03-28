@@ -1,6 +1,6 @@
 {
   "name": "price-to-words-pl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Converting a price value into a word representation with a currency.",
   "main": "dist/index.js",
   "repository": "https://github.com/robert8888/price-to-words-pl",
