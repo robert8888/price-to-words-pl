@@ -5,6 +5,7 @@ const testsA = [
     [.01, `zero złotych i jeden grosz`],
     [.1, `zero złotych i dziesięć groszy`],
     [.18, `zero złotych i osiemnaście groszy`],
+    [1.00, 'jeden złoty i zero groszy'],
     [12.54, `dwanaście złotych i pięćdziesiąt cztery grosze`],
     [46449.50, `czterdzieści sześć tysięcy czterysta czterdzieści dziewięć złotych i pięćdziesiąt groszy`],
     [49.90, `czterdzieści dziewięć złotych i dziewięćdziesiąt groszy`],

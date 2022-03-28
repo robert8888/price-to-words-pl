@@ -23,7 +23,7 @@ export default class PriceConverter {
 
         let [wholePart, decimalPart] = priceString.split(/[,.]/);
 
-        decimalPart = decimalPart.padEnd(2, '0');
+        decimalPart = (decimalPart || '').padEnd(2, '0');
 
         [wholePart, decimalPart].map(part => +part)
 
